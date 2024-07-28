@@ -1,5 +1,9 @@
 {
-  "HomePage": {
-    "title": "Hola mundo!"
+  "homepage": {
+    "title": "Bienvenido a Sports Bet",
+    "subtitle": "La nueva forma de apostar en tus torneos deportivos favoritos",
+    "feature": {
+      "title": "Torneos Disponibles"
+    }
   }
 }
