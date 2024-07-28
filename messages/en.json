@@ -1,5 +1,9 @@
 {
-  "HomePage": {
-    "title": "Hello world!"
+  "homepage": {
+    "title": "Welcome to Sports Bet",
+    "subtitle": "The best way to bet in your favorite sports tournaments",
+    "feature": {
+      "title": "Available tournaments"
+    }
   }
 }

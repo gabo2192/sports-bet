@@ -1,3 +1,4 @@
+import { SignInForm } from "@/components/form/sign-in";
 import { MainLayout } from "@/components/layouts/main-layout";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
@@ -22,6 +23,7 @@ export default function Home() {
         </h2>
         <ul className="scroll-m-20"></ul>
       </section>
+      <SignInForm />
     </MainLayout>
   );
 }
