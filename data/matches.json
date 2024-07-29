@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "name": "Match 1",
+    "teams": [1, 2],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [
+      {
+        "team": 1,
+        "score": 1
+      },
+      {
+        "team": 2,
+        "score": 2
+      }
+    ],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 1
+  },
+  {
+    "id": 2,
+    "name": "Match 1",
+    "teams": [3, 4],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 1
+  },
+  {
+    "id": 3,
+    "name": "Match 1",
+    "teams": [5, 6],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 1
+  },
+  {
+    "id": 4,
+    "name": "Match 1",
+    "teams": [7, 8],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 1
+  },
+  {
+    "id": 5,
+    "name": "Match 1",
+    "teams": [9, 10],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 2
+  },
+  {
+    "id": 6,
+    "name": "Match 1",
+    "teams": [11, 12],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 2
+  },
+  {
+    "id": 7,
+    "name": "Match 1",
+    "teams": [13, 14],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 2
+  },
+  {
+    "id": 8,
+    "name": "Match 1",
+    "teams": [15, 16],
+    "status": "not_started",
+    "scheduled_at": "2024-08-01T00:00:00Z",
+    "rescheduled": false,
+    "begin_at": null,
+    "ends_at": null,
+    "number_of_games": 3,
+    "result": [],
+    "winner_id": null,
+    "draw": false,
+    "groupId": 2
+  }
+]

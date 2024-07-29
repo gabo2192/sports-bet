@@ -8,6 +8,41 @@
       "when": 1722201511480,
       "tag": "0000_funny_silver_samurai",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1722276220899,
+      "tag": "0001_lush_nebula",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1722279216502,
+      "tag": "0002_chief_prodigy",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1722279301456,
+      "tag": "0003_big_landau",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1722279318260,
+      "tag": "0004_careful_maelstrom",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1722279323651,
+      "tag": "0005_needy_longshot",
+      "breakpoints": true
     }
   ]
 }

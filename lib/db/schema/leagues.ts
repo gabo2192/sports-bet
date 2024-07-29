@@ -1,17 +1,18 @@
 import { InferInsertModel, InferSelectModel } from "drizzle-orm";
 import { pgTable, text, timestamp } from "drizzle-orm/pg-core";
+import { sports } from "./sports";
 
-export const users = pgTable("user", {
+export const leagues = pgTable("league", {
   id: text("id")
     .primaryKey()
     .$defaultFn(() => crypto.randomUUID()),
   name: text("name"),
-  email: text("email").notNull().unique(),
-  emailVerified: timestamp("emailVerified", { mode: "date" }),
-  image: text("image"),
+  sportId: text("sportId")
+    .notNull()
+    .references(() => sports.id, { onDelete: "cascade" }),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
 });
 
-export type User = InferSelectModel<typeof users>;
-export type NewUser = InferInsertModel<typeof users>;
+export type League = InferSelectModel<typeof leagues>;
+export type NewLeague = InferInsertModel<typeof leagues>;

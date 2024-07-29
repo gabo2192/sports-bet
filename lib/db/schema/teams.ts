@@ -1,17 +1,15 @@
 import { InferInsertModel, InferSelectModel } from "drizzle-orm";
 import { pgTable, text, timestamp } from "drizzle-orm/pg-core";
 
-export const users = pgTable("user", {
+export const teams = pgTable("team", {
   id: text("id")
     .primaryKey()
     .$defaultFn(() => crypto.randomUUID()),
   name: text("name"),
-  email: text("email").notNull().unique(),
-  emailVerified: timestamp("emailVerified", { mode: "date" }),
-  image: text("image"),
+  logo: text("logo"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
 });
 
-export type User = InferSelectModel<typeof users>;
-export type NewUser = InferInsertModel<typeof users>;
+export type Team = InferSelectModel<typeof teams>;
+export type NewTeam = InferInsertModel<typeof teams>;
